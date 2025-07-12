@@ -6,7 +6,7 @@
 
 body {
     background-color: rgba(29, 66, 54, 0.616);
-    color: #000;
+    background-image: linear-gradient(to right top, #7fde96, #6fcd81, #60bc6d, #50ab58, #419b44, #3a963e, #329037, #2a8b31, #288f37, #26933e, #249744, #219b4a);
     font-family: Arial, sans-serif;
 }
 
