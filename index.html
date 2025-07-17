@@ -15,10 +15,14 @@
 </head>
 
 <body>
+
+    <!-- NAVIGATION BAR -->
+
+
     <header>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
             <div class="container">
-                <a class="navbar-brand logo fw-bold fs-4" href="#">Harsh.</a>
+                <a class="navbar-brand text-info logo fw-bold fs-4" href="#">Harsh.</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -31,37 +35,45 @@
                             <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Service</a>
+                            <a class="nav-link" href="#skills">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
+
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
 
+
+    <!-- HOME PART -->
+
+
     <section class="home" id="home">
-        <div class="home-content">
-            <h1>Hi, I'm Harsh Kumar Gupta</h1>
-            <h3>WEB DEVELOPER</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, nisi numquam laborum, in deserunt
-                saepe veniam voluptatem animi sunt repudiandae nam accusantium!</p>
-            <div class="btn-box">
-                <a href="#">Hire Me</a>
-                <a href="#">Let's Talk</a>
+        <div class="container">
+            <div class="home-content">
+                <h1>Hi, I'm Harsh Kumar Gupta</h1>
+                <h3>WEB DEVELOPER</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, nisi numquam laborum, in
+                    deserunt
+                    saepe veniam voluptatem animi sunt repudiandae nam accusantium!</p>
+                <div class="btn-box ">
+                    <a href="#">Hire Me</a>
+                    <a href="#">Let's Talk</a>
+                </div>
+                <div class="app ">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
             </div>
-            <div class="app">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            </div>
-        </div>
     </section>
 
+    <!-- About section -->
     <section class="about" id="about">
-        <div class="container d-flex flex-wrap justify-content-center align-items-center gap-5">
+        <div class="container">
             <img src="image/about.png" alt="About Me">
             <div class="about-info">
                 <h1>About <span>Me</span></h1>
@@ -75,6 +87,48 @@
             </div>
         </div>
     </section>
+
+    <!-- SKILL PART-->
+    <div style="height: 100vh;" id="skills">
+        <h1 class="text-center m-5 p-5" style="color: aliceblue; font-weight: 900px;">Skills</h1>
+        <section class="container-expand row">
+            <div class="col col-6 text-center">
+                <h2>Technical Skills</h2>
+                <p>JAVA</p>
+                <p>JAVASCRIPT</p>
+                <p>HTML</p>
+                <p>CSS</p>
+            </div>
+
+            <div class="col col-6 text-center">
+                <h2>SOFT SKILLS</h2>
+
+
+                <p class="d-flex">Communication</p>
+
+                <div class="progress-bar progress-bar progress-bar-animated bg-info border border-2 text-warning" style="border-width: 100%;">90%<div class="progress-bar progress-bar progress-bar-animated bg-info border border-2 text-warning" style="border-width: 100%;">
+
+                </div> 
+            </div>
+                
+                
+                
+                <p>Teamwork</p>
+
+
+
+                <div class="progress-bar progress-bar progress-bar-animated bg-info" style="height: 20px;"></div>
+
+                <p>Problem-Solving</p>
+                <div class="progress-bar progress-bar progress-bar-animated bg-info" style="height: 20px;"></div>
+
+                <p>Leadership</p>
+                <div class="progress-bar progress-bar progress-bar-animated bg-info" style="height: 20px;"></div>
+
+            </div>
+        </section>
+    </div>
+    </div>
 </body>
 
 </html>
