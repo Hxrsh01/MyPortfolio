@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Harsh</title>
-    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/c85d65058e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -20,7 +21,7 @@
 
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #3e4137;">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #99ce1d;">
             <div class="container">
                 <a class="navbar-brand text-info logo fw-bold fs-4" href="#">Harsh.</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNav">
@@ -29,7 +30,7 @@
                 <div class="collapse navbar-collapse" id="myNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#home">Home</a>
+                            <a class="nav-link active " href="#home">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about">About</a>
@@ -40,6 +41,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact</a>
                         </li>
+
 
                     </ul>
                 </div>
@@ -53,23 +55,39 @@
 
     <section class="home" id="home">
         <div class="container">
-            <div class="home-content">
-                <h1>Hi, I'm Harsh Kumar Gupta</h1>
-                <h3>WEB DEVELOPER</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, nisi numquam laborum, in
-                    deserunt
-                    saepe veniam voluptatem animi sunt repudiandae nam accusantium!</p>
-                <div class="btn-box ">
-                    <a href="#">Hire Me</a>
-                    <a href="#">Let's Talk</a>
+            <div class="d-flex align-items-center justify-content-center home-img">
+                <div class="home-content col-12 col-md-8 col-lg-6 text-center text-md-start">
+                    <h1>Hi, I'm Harsh Kumar Gupta</h1>
+                    <h3>WEB DEVELOPER</h3>
+
+                    <div class="btn-box">
+                        <a href="Harsh Resume.pdf" download>Resume</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+
+                    <div class="app">
+                        <a href="https://github.com/" target="_blank" class="text-white me-3 text-decoration-none">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://mail.google.com/mail/?view=cm&to=harshkrgupta2605@gmail.com" target="_blank"
+                            class="text-white me-3 text-decoration-none">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://linkedin.com/" target="_blank" class="text-white">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+
+
+
                 </div>
-                <div class="app ">
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <div class="col-lg-6 ">
+                    <img src="image/profile.png" alt="">
                 </div>
             </div>
+        </div>
     </section>
+
 
     <!-- About section -->
     <section class="about" id="about">
@@ -79,64 +97,91 @@
                 <h1>About <span>Me</span></h1>
                 <h3>WEB DEVELOPER</h3>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero fugiat eaque maxime sapiente
-                    architecto possimus quasi amet ducimus iste? Doloribus facilis modi libero, maxime vitae odit.
-                    Suscipit, aliquid nihil molestias possimus ea dolore nulla illum debitis similique atque quidem ex
-                    doloribus perferendis quasi ullam tenetur placeat saepe. Iure, accusamus eligendi!
+                    Hi, I'm <b>Harsh Kumar Gupta</b>, a B.Tech Computer Science Engineering student at IIMT College of
+                    Engineering (2022-2026). I have strong skills in Java, Python, C++, HTML, CSS, JavaScript, and a
+                    solid grasp of Data Structures, Algorithms, DBMS, and OOP.
+
+                    I'm passionate about software development and solving real-world problems through efficient,
+                    scalable, and user-friendly applications. With hands-on project experience and strong teamwork and
+                    leadership skills, I'm eager to grow as a developer in the tech industry.
                 </p>
             </div>
         </div>
     </section>
 
     <!-- SKILL PART-->
-    <div style="height: 100vh; background-image: linear-gradient(to left top, #f17c7c, #c06369, #914c54, #64363e, #3a2227, #3c1c23, #3e1620, #400f1c, #6d0924, #9c0025, #c9001d, #f40000);"
-        id="skills">
-        <h1 class="text-center m-5 p-5 text-light fw-bold">Skills</h1>
-
-        <section class="container-fluid d-flex  justify-content-evenly">
-
-            <div class="col-12 col-md-6 mb-4 bg-info w-25 text-center"
-                style="background-image: linear-gradient(to right, #52b241, #58933c, #557639, #4c5b38, #3e4137);">
-                <h2 class=" mb-4 text-light">Technical Skills</h2>
+    <section class="skills" id="skills">
+        <h1 class="text-center text-light fw-bold py-5">Skills</h1>
+        <div class="skills-body d-flex justify-content-evenly p-5">
+            <div class="col-lg-6 bg-info  text-center border border-2">
+                <h2 class="  text-light">Technical Skills</h2>
                 <p>JAVA</p>
                 <p>JAVASCRIPT</p>
                 <p>HTML</p>
                 <p>CSS</p>
             </div>
 
-            <div class="col-12 col-md-6 mb-4 w-25 text-center"
-                style="background-image: linear-gradient(to right, #52b241, #58933c, #557639, #4c5b38, #3e4137);">
-                <h2 class="mb-4 text-light">Soft Skills</h2>
+            <div class=" col-lg-6   text-center bg-info border border-2">
+                <h2 class="text-light">Soft Skills</h2>
                 <p>Communication</p>
                 <p>Teamwork</p>
                 <p>Problem-Solving</p>
                 <p>Leadership</p>
             </div>
-        </section>
+        </div>
+    </section>
     </div>
 
 
     <!-- contact part -->
-    <div style="height: 100vh;" id="contact">
-        <h1 class="text-center m-5 p-5 text-light fw-bold">Contact</h1>
-        <section class="text-center">
-            <ul style="text-decoration: none;">
+    <div class="contact" id="contact">
+        <h1 class="text-center text-light fw-bold">Contact</h1>
+        <section class=" d-flex justify-content-center">
+            <div class="contact-content">
 
-                <li>
-                    
-                    Email: <a href="mailto:harshkrgupta4@gmail.com">harshkrgupta4@gmail.com</a>
-                </li>
-                <li>
-                    
-                    Linkedin: <a href="https://www.linkedin.com/in/harsh-kumar-gupta-08aa4535b/">Harsh Kumar Gupta</a>
-                </li>
-                <li>
-                    
-                    Github: <a href="https://github.com/Hxrsh01">Hxrsh01</a>
-                </li>
-            </ul>
+                <ul class="contact text-center py-5">
+
+                    <li>
+
+                        Email: <a href="https://mail.google.com/mail/?view=cm&to=harshkrgupta2605@gmail.com"
+                            target="_blank">harshkrgupta2605@gmail.com</a>
+                    </li>
+                    <li>
+
+                        Linkedin: <a href="https://www.linkedin.com/in/harsh-kumar-gupta-08aa4535b/">Harsh Kumar
+                            Gupta</a>
+                    </li>
+                    <li>
+
+                        Github: <a href="https://github.com/Hxrsh01">Hxrsh01</a>
+                    </li>
+                    <p>U.P, India</p>
+
+                </ul>
+            </div>
         </section>
     </div>
+
+    <!-- Footer part -->
+
+    <footer class="bg-dark text-white text-center">
+        <div class="container ">
+            <p class="mb-2">&copy; 2025 Harsh Gupta. All rights reserved.</p>
+            <div>
+                <a href="https://github.com/" target="_blank" class="text-white me-3 text-decoration-none">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://mail.google.com/mail/?view=cm&to=harshkrgupta2605@gmail.com" target="_blank"
+                    class="text-white me-3 text-decoration-none">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://linkedin.com/" target="_blank" class="text-white">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
 </body>
 
 </html>
