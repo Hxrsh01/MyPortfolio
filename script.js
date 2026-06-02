@@ -39,7 +39,7 @@ function highlightActiveLink() {
 }
 
 /* ─── TYPED TEXT EFFECT ───────────────────────────────────── */
-const phrases  = ['Web Developer', 'Java Programmer', 'Problem Solver', 'CS Student'];
+const phrases  = ['Web Developer', 'LLM Post-Training Intern', 'MERN Stack Developer', 'Java Programmer', 'Problem Solver'];
 let   pIndex   = 0;
 let   cIndex   = 0;
 let   deleting = false;
